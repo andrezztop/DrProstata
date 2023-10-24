@@ -17,41 +17,47 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Dr. Oswaldo Carmona</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-none d-md-block" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link activate" aria-current="true" href="#">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link activate" aria-current="true" href="#appointment">Haz una cita</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Dr. <span class="text-primary"> Oswaldo Carmona </span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary" href="#">Haz una cita</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="Foto1.png" class="d-block w-100 img-fluid" style="max-height: 700px;" alt="...">
+          <div class="carousel-caption">
+            <h4>¿Quién soy?</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sit atque veritatis, iste asperiores pariatur harum quidem quam enim quaerat. 
+              Enim optio atque ipsam reiciendis alias quasi, asperiores natus modi!</p>
+              <a class="btn btn-primary mt-3" href="#">Más información</a>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="Foto2.png" class="d-block w-100 img-fluid" style="max-height: 700px;" alt="...">
